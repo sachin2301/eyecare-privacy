@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EyeCare Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #2c3a45;
+        --muted: #5a6b78;
+        --bg: #eaf6fb;
+        --card: #ffffff;
+        --line: #d5e4ee;
+        --teal: #217a87;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Avenir Next, Trebuchet MS, sans-serif;
+        color: var(--ink);
+        background: linear-gradient(180deg, var(--bg), #f4f8fb 40%, #fff);
+        line-height: 1.55;
+      }
+      main {
+        width: min(760px, calc(100% - 32px));
+        margin: 32px auto 64px;
+        padding: 28px 32px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 16px 40px rgba(70, 110, 140, 0.1);
+      }
+      h1 { margin: 0 0 8px; letter-spacing: -0.03em; }
+      h2 { margin: 28px 0 8px; font-size: 1.15rem; color: var(--teal); }
+      p, li { color: var(--muted); }
+      .meta { color: #8a9aa8; font-size: 0.92rem; margin-bottom: 24px; }
+      a { color: var(--teal); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>EyeCare Privacy Policy</h1>
+      <p class="meta">Last updated: September 21, 2026</p>
+
+      <p>
+        EyeCare (“the Extension”) is a Chrome extension that helps reduce digital eye strain with
+        break reminders, guided eye exercises, and an optional blue-light overlay.
+      </p>
+
+      <h2>1. Summary</h2>
+      <p>
+        EyeCare is designed to work <strong>locally on your device</strong>. Core features do not
+        require an account and do not upload your browsing history or page content to our servers.
+      </p>
+
+      <h2>2. Data we store on your device</h2>
+      <p>Using Chrome’s local storage APIs, the Extension may store:</p>
+      <ul>
+        <li>Settings (reminder interval, snooze, work hours, Strict mode, enabled exercises, overlay preferences)</li>
+        <li>Session timing (for example, next break time)</li>
+        <li>Local usage stats (screen minutes estimate, breaks taken/skipped, exercises completed)</li>
+      </ul>
+      <p>This information stays in your browser profile unless you clear it or uninstall the Extension.</p>
+
+      <h2>3. Permissions and why they are used</h2>
+      <ul>
+        <li><strong>storage</strong> — save settings and local stats</li>
+        <li><strong>alarms</strong> — schedule 20-20-20 reminders</li>
+        <li><strong>notifications</strong> — show break alerts</li>
+        <li><strong>tabs</strong> — open the dashboard/exercise view and refresh overlay state</li>
+        <li><strong>host access (http/https)</strong> — apply the optional blue-light overlay on websites you visit</li>
+      </ul>
+
+      <h2>4. What we do not collect</h2>
+      <ul>
+        <li>No account signup is required for core features</li>
+        <li>No sale of personal data</li>
+        <li>No advertising trackers in the Extension</li>
+        <li>We do not intentionally collect the contents of the web pages you browse</li>
+      </ul>
+
+      <h2>5. Third parties</h2>
+      <p>
+        The Extension itself does not send your settings or stats to third-party analytics services.
+        If you install EyeCare from the Chrome Web Store, Google may process developer/account and
+        store analytics according to Google’s policies.
+      </p>
+
+      <h2>6. Children’s privacy</h2>
+      <p>
+        EyeCare is a general productivity/wellness tool and is not directed at children under 13.
+      </p>
+
+      <h2>7. Your choices</h2>
+      <ul>
+        <li>Change or disable reminders, overlay, and exercises in Settings</li>
+        <li>Clear local Extension data through Chrome settings, or uninstall EyeCare to remove stored data</li>
+      </ul>
+
+      <h2>8. Changes</h2>
+      <p>
+        We may update this policy when features change. The “Last updated” date at the top will be revised when that happens.
+      </p>
+
+      <h2>9. Contact</h2>
+      <p>
+        Questions about this policy:
+        <a href="mailto:REPLACE_WITH_YOUR_EMAIL@example.com">REPLACE_WITH_YOUR_EMAIL@example.com</a>
+      </p>
+      <!-- Before publishing: replace the email above with your real contact address. -->
+    </main>
+  </body>
+</html>
